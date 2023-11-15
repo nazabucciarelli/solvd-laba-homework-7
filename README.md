@@ -21,6 +21,7 @@ Finally, I've run the different phases of the Maven lifecycle:
 - mvn verify: It did nothing, because its task is to perform integration tests that maven finds in the project and this project doesn't have any.
 - mvn install: It installed the package into the local repository (.m2).
 - mvn deploy: It threw an error because I haven't specified any repository in the pom.xml.
+
 By running "mvn package" and "mvn install", the .jar file was created and installed
 in the local repository (1st exercise).
 
